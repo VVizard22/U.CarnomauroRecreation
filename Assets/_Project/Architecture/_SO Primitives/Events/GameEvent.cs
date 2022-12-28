@@ -21,7 +21,7 @@ namespace RoboRyanTron.Unite2017.Events
 
         public void Raise()
         {
-            //Debug.Log("Raising Event");
+            //Debug.Log("Raising Event: " + this.name);
             for(int i = eventListeners.Count -1; i >= 0; i--)
                 eventListeners[i].OnEventRaised();
         }

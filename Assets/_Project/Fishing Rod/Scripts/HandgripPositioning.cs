@@ -28,7 +28,6 @@ namespace Carnomauro.Rod
         {
             if (!_shouldWork.Value)
                 return;
-
             Vector3 _realMousePos = _mousePosition.GetVector3();
             Vector2 _worldMousePos = Camera.main.ScreenToWorldPoint(_realMousePos);
 
